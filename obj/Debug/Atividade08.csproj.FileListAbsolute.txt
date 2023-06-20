@@ -1,0 +1,8 @@
+C:\Users\LAJOFER\source\repos\Atividade08\Atividade08\obj\Debug\Atividade08.csproj.AssemblyReference.cache
+C:\Users\LAJOFER\source\repos\Atividade08\Atividade08\obj\Debug\Atividade08.csproj.SuggestedBindingRedirects.cache
+C:\Users\LAJOFER\source\repos\Atividade08\Atividade08\obj\Debug\Atividade08.csproj.CoreCompileInputs.cache
+C:\Users\LAJOFER\source\repos\Atividade08\Atividade08\bin\Debug\Atividade08.exe.config
+C:\Users\LAJOFER\source\repos\Atividade08\Atividade08\bin\Debug\Atividade08.exe
+C:\Users\LAJOFER\source\repos\Atividade08\Atividade08\bin\Debug\Atividade08.pdb
+C:\Users\LAJOFER\source\repos\Atividade08\Atividade08\obj\Debug\Atividade08.exe
+C:\Users\LAJOFER\source\repos\Atividade08\Atividade08\obj\Debug\Atividade08.pdb
