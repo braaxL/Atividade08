@@ -6,46 +6,60 @@ using System.Threading.Tasks;
 
 namespace Atividade08
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            List<string> produtos = new List<string> { };
 
+            Console.WriteLine("Bem-Vindo ao BK Store");
+
+            while (true)
             {
-                List<User> users = new List<User>();
+                Console.WriteLine("Digite 1 para cadastrar ou 2 para listar");
+                string resposta = Console.ReadLine();
 
-                // Adicionando usuários à lista
-                users.Add(new User("João", "joao@gmail.com"));
-                users.Add(new User("Maria", "maria@hotmail.com"));
-                users.Add(new User("Pedro", "pedro@yahoo.com"));
-
-                // Buscando usuário por email
-                string email = "maria@hotmail.com";
-                User user = users.Find(u => u.Email == email);
-
-                if (user != null)
+                if (resposta == "1")
                 {
-                    Console.WriteLine($"Usuário encontrado: {user.Name}");
+                    Console.WriteLine("Digite o nome do produto: ");
+                    string produto = Console.ReadLine();
+                    produtos.Add(produto);
+                    
+                    if (produto.Contains(produto ))
+                    {
+                        Console.WriteLine("Este item já existe na Lista");
+                    }
+
+                    else
+                    {
+                        produtos.Add(produto);
+                        Console.WriteLine("Produto adicionado");
+
+                    }
+
                 }
+
                 else
                 {
-                    Console.WriteLine("Usuário não encontrado");
+                    string texto = "";
+                    int contador = 0;
+                    while (contador < produtos.Count )
+                    {
+                        texto = produtos[contador] + ", ";
+                        contador++;
+                    }
+
+                    Console.WriteLine(texto);
+                    
                 }
-            }
-        }
 
-        class User
-        {
-            public string Name { get; set; }
-            public string Email { get; set; }
 
-            public User(string name, string email)
-            {
-                Name = name;
-                Email = email;
             }
 
-            
+
+
+
+
         }
     }
 }
